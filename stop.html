@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Using Pure JS</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="timer.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Timer and Stopwatch</h1>
+        <div id="timer" class="timer">00:00:00</div>
+        <div class="controls">
+          <button onclick="start()">Start</button>
+          <button onclick="stop()">Stop</button>
+          <button onclick="reset()">Reset</button>
+        </div>  
+      </div>        
+    <div class="clock">
+        <div id="time"></div>
+      </div>
+    <div id="clockContainer">
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+    </div>
+    <script src="timer.js"></script>
+</body>
+</html>
